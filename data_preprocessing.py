@@ -90,15 +90,7 @@ print(training_data[0])
 # Create training data
 def preprocess_train_data(training_data):
    
-    training_data = np.array(training_data, dtype=object)
-    
-    train_x = list(training_data[:,0])
-    train_y = list(training_data[:,1])
-
-    print(train_x[0])
-    print(train_y[0])
-  
-    return train_x, train_y
+     
 
 train_x, train_y = preprocess_train_data(training_data)
 
